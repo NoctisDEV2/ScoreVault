@@ -1,0 +1,16 @@
+{
+  "name": "@scorevault/bot",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "lint": "echo 'no lint'"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "form-data": "^4.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}

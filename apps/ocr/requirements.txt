@@ -1,0 +1,15 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+redis==5.0.7
+python-dotenv==1.0.1
+requests==2.32.3
+Pillow==10.4.0
+numpy==1.26.4
+opencv-python-headless==4.10.0.84
+
+# GPU-accelerated OCR (CUDA auto-detected at runtime)
+easyocr==1.7.1
+
+# PyTorch with CUDA — install separately for your CUDA version:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# (replace cu121 with your CUDA version, e.g. cu118 for CUDA 11.8)

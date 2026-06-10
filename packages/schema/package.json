@@ -1,0 +1,13 @@
+{
+  "name": "@scorevault/schema",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test src/index.test.js",
+    "lint": "echo 'no lint'"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
